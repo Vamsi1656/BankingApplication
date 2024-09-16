@@ -1,0 +1,10 @@
+package com.springboot.banking.service;
+
+import com.springboot.banking.dto.AccountDto;
+
+public interface AccountService {
+	
+	AccountDto createAccount(AccountDto accountDto);
+    
+
+}

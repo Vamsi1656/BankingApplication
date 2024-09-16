@@ -1,0 +1,5 @@
+package com.springboot.banking.Mapper;
+
+public class AccountMapper {
+
+}

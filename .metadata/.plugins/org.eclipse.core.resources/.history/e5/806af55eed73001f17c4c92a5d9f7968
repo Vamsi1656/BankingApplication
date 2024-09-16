@@ -1,0 +1,11 @@
+package com.springboot.banking.dto;
+
+public class AccountDto {
+	
+	private int Id;
+	
+	private String AccountHolderName;
+	
+	private double balance;
+
+}

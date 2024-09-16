@@ -1,0 +1,11 @@
+package com.springboot.banking.repository;
+
+import java.io.Serializable;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.springboot.banking.entity.Account;
+
+public interface AccountRepo extends JpaRepository<Account, Serializable>  {
+
+}

@@ -1,0 +1,5 @@
+package com.springboot.banking.dto;
+
+public class AccountDto {
+
+}

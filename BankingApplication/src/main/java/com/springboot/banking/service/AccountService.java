@@ -1,0 +1,18 @@
+package com.springboot.banking.service;
+
+
+import org.springframework.stereotype.Service;
+
+import com.springboot.banking.dto.AccountDto;
+
+@Service
+public interface AccountService {
+	
+	AccountDto createAccount(AccountDto accountDto);
+	
+	AccountDto getAccountById(Integer Id);
+	
+	AccountDto deposit(Integer Id,double amount);
+    
+
+}

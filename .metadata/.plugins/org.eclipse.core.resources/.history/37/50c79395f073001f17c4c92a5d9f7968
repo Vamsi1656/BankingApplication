@@ -1,0 +1,24 @@
+package com.springboot.banking.Impl;
+
+import com.springboot.banking.dto.AccountDto;
+import com.springboot.banking.repository.AccountRepo;
+import com.springboot.banking.service.AccountService;
+
+public class AccountServiceImpl implements AccountService {
+	
+	private AccountRepo repo;
+	
+
+	public AccountServiceImpl(AccountRepo repo) {
+		super();
+		this.repo = repo;
+	}
+
+
+	@Override
+	public AccountDto createAccount(AccountDto accountDto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
