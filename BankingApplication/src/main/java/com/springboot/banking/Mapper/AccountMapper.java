@@ -16,14 +16,14 @@ public class AccountMapper {
 	}
 	
 	
-	public static AccountDto mapToAccountDto(Account account) {
-		AccountDto accountDto=new AccountDto(
-			account.getId(),
-			account.getAccountHolderName(),
-			account.getBalance()
-		);
-		
-		return accountDto;
-	}
+		public static AccountDto mapToAccountDto(Account account) {
+			AccountDto accountDto=new AccountDto(
+				account.getId(),
+				account.getAccountHolderName(),
+				account.getBalance()
+			);
+			
+			return accountDto;
+		}
 
 }

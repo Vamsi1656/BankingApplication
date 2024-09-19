@@ -1,0 +1,16 @@
+package com.springboot.banking.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class AccountDto {
+	
+	private int Id;
+	
+	private String AccountHolderName;
+	
+	private double balance;
+
+}
